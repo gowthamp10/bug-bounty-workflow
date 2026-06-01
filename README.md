@@ -1,5 +1,3 @@
-
-=======
 # Bug Bounty Agent Workflow
 
 An automated bug-bounty workflow engine implemented in Python, designed for Linux-based environments. This tool automates five critical phases of security research and vulnerability discovery.
