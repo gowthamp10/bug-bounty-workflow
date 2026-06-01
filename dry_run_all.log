@@ -1,0 +1,40 @@
+[13:24:40] INFO     [!] DRY RUN MODE ENABLED                          main.py:47
+           INFO     [*] --- Phase 1: Asset Discovery ---              main.py:61
+           INFO     Discovering subdomains for            phase1_discovery.py:45
+                    example.com...
+           INFO     [DRY RUN] Executing: subfinder -d     phase1_discovery.py:24
+                    example.com -silent
+           INFO     Discovering URLs for example.com...   phase1_discovery.py:60
+           INFO     [DRY RUN] Executing: waybackurls      phase1_discovery.py:24
+           INFO     [DRY RUN] Executing: gau --subs       phase1_discovery.py:24
+                    example.com
+           INFO     Finished processing example.com.     phase1_discovery.py:107
+                    Found 0 subdomains, 0 URLs, and 0
+                    live hosts.
+           INFO     [*] --- Phase 2: Authorization Tester ---         main.py:75
+           INFO     Starting Authz matrix testing on 0 URLs  phase2_authz.py:111
+                    with 2 sessions.
+           INFO     [*] --- Phase 3: OOB Monitor ---                  main.py:80
+           INFO     [DRY RUN] Registered interact.sh subdomain: phase3_oob.py:19
+                    d5cf924b.oob.example.com
+           INFO     [*] Starting OOB polling every 1s...        phase3_oob.py:32
+           INFO     [DRY RUN] Polling interact.sh for           phase3_oob.py:35
+                    interactions...
+[13:24:41] INFO     [DRY RUN] Polling interact.sh for           phase3_oob.py:35
+                    interactions...
+[13:24:42] INFO     [DRY RUN] Polling interact.sh for           phase3_oob.py:35
+                    interactions...
+[13:24:43] INFO     [DRY RUN] Polling interact.sh for           phase3_oob.py:35
+                    interactions...
+[13:24:44] INFO     [DRY RUN] Polling interact.sh for           phase3_oob.py:35
+                    interactions...
+[13:24:45] INFO     [DRY RUN] Polling interact.sh for           phase3_oob.py:35
+                    interactions...
+[13:24:46] INFO     [DRY RUN] Polling interact.sh for           phase3_oob.py:35
+                    interactions...
+[13:24:47] INFO     [DRY RUN] Polling interact.sh for           phase3_oob.py:35
+                    interactions...
+[13:24:48] INFO     [DRY RUN] Polling interact.sh for           phase3_oob.py:35
+                    interactions...
+[13:24:49] INFO     [DRY RUN] Polling interact.sh for           phase3_oob.py:35
+                    interactions...
