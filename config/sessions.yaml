@@ -1,0 +1,26 @@
+# Session configuration for Phase 2 (Authorization & IDOR)
+# Define multiple users to build the cross-user testing matrix.
+
+- name: user_a
+  headers:
+    User-Agent: "BugBountyAgent/1.0"
+  cookies:
+    session: "REPLACE_WITH_USER_A_SESSION"
+  tokens:
+    Authorization: "Bearer REPLACE_WITH_USER_A_TOKEN"
+
+- name: user_b
+  headers:
+    User-Agent: "BugBountyAgent/1.0"
+  cookies:
+    session: "REPLACE_WITH_USER_B_SESSION"
+  tokens:
+    Authorization: "Bearer REPLACE_WITH_USER_B_TOKEN"
+
+# - name: admin
+#   headers:
+#     User-Agent: "BugBountyAgent/1.0"
+#   cookies:
+#     session: "REPLACE_WITH_ADMIN_SESSION"
+#   tokens:
+#     Authorization: "Bearer REPLACE_WITH_ADMIN_TOKEN"
