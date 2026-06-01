@@ -1,0 +1,10 @@
+[13:28:33] INFO     [!] DRY RUN MODE ENABLED                          main.py:51
+           INFO     [*] Local listener mode enabled. Domain:    phase3_oob.py:22
+                    localhost:8080
+           INFO     [DRY RUN] Starting local HTTP listener on   phase3_oob.py:44
+                    port 8080
+           INFO     [*] Starting OOB polling every 1s...        phase3_oob.py:58
+           INFO     [*] Injecting OOB payloads into             phase3_oob.py:83
+                    https://example.com
+           INFO     [*] Waiting for potential delayed          phase3_oob.py:121
+                    interactions...
