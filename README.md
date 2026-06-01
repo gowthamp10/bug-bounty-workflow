@@ -1,4 +1,4 @@
-"# bug-bounty-workflow"
+
 =======
 # Bug Bounty Agent Workflow
 
